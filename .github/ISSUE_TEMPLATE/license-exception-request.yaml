@@ -17,7 +17,7 @@ body:
         Does it meet the [Allowlist policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)? If so, no further exception request is required.
         
         
-        For all license exception requests, we need the following information.
+        For all other license exception requests, we need the following information.
   - type: textarea
     id: introduction
     attributes:
