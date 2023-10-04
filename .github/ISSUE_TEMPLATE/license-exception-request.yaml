@@ -11,10 +11,12 @@ body:
       value: >
         ### PLEASE NOTE:
         
-        If it is Apache-2.0 for code or CC-BY-4.0 for documentation, no further exception request is required.<br /><br />
+        If it is Apache-2.0 for code or CC-BY-4.0 for documentation, no further exception request is required.
         
-        Does it meet the [Allowlist policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)? If so, no further exception request is required.<br /><br />
-
+        
+        Does it meet the [Allowlist policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)? If so, no further exception request is required.
+        
+        
         For all license exception requests, we need the following information.
   - type: textarea
     id: introduction
