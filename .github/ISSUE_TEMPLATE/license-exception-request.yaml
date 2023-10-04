@@ -4,7 +4,7 @@ description: Submit an exception request
 title: "[License Exception Request] [Project] [License]"
 labels:
   - licensing
-assignees: krook, amye
+assignees: krook,amye
 body:
   - type: markdown
     attributes:
