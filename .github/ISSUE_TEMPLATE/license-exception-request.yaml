@@ -26,8 +26,8 @@ body:
   - type: input
     id: name
     attributes:
-      label: License bame
-      description: Full name or title of license
+      label: License name
+      description: What is the full name or title of the license?
     validations:
       required: true
   - type: textarea
@@ -58,6 +58,6 @@ body:
       label: Integrates with other components?
       description:
         How does this component integrate with or interact with, if at all,
-        other components of the project?"
+        other components of the project?
     validations:
       required: true
