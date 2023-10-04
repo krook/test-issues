@@ -11,42 +11,43 @@ body:
       value: >
         ### PLEASE NOTE
         
-        For all license exception requests, we need the following information. 
+        For all license exception requests, we need the following information.
         
         If it is Apache-2.0 for code or CC-BY-4.0 for documentation, no further exception request is required.
         
-        Does it meet the [Allowlist policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)? If so, no further exception request is required. 
+        Does it meet the [Allowlist policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)? If so, no further exception request is required.
   - type: textarea
     id: introduction
     attributes:
-      label: Component
+      label: Component details
       description: What is the third party component (name, URL, and version if available)?
     validations:
       required: true
   - type: input
     id: name
     attributes:
-      label: License Name
+      label: License bame
       description: Full name or title of license
     validations:
       required: true
   - type: textarea
     id: modifications
     attributes:
-      label: modified
+      label: Code modified?
       description: Will the code be used in modified or unmodified form?
     validations:
       required: true
   - type: textarea
     id: license-exception
     attributes:
-      label: contributed
+      label: Changes contributed?
       description: If modified, will changes be contributed back to the upstream project?
   - type: textarea
     id: alternatives
     attributes:
-      label: alternatives
-      description: Are there any alternative components available with equivalent
+      label: Any alternatives?
+      description:
+        Are there any alternative components available with equivalent
         functionality under a more permissive license? If so, is it possible to
         use that component instead?
     validations:
@@ -54,8 +55,9 @@ body:
   - type: textarea
     id: integration
     attributes:
-      label: integration
-      description: How does this component integrate with or interact with, if at all,
+      label: Integrates with other components?
+      description:
+        How does this component integrate with or interact with, if at all,
         other components of the project?"
     validations:
       required: true
